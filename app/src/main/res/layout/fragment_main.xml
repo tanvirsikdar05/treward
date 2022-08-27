@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_20sdp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/top_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize"
+                        android:layout_marginBottom="3dp"
+                        android:background="#191970"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:text="@string/app_name"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                android:gravity="right"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="10dp"
+                                    android:text="@string/super_coin"
+                                    android:textColor="#E8E6E6"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/user_points_text_view"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawablePadding="5dp"
+                                    android:gravity="center"
+                                    android:text="20,0000"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="@color/white"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    tools:ignore="RtlCompat" />
+
+                                <ImageView
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="@dimen/_2sdp"
+                                    app:srcCompat="@drawable/king_coin_img" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="#e7e7e7"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <RelativeLayout
+                                android:id="@+id/telegram"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/telegram_bg">
+
+                                <ImageView
+                                    android:id="@+id/tele"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:contentDescription="@string/spin_image"
+                                    android:src="@drawable/telegramlogo" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="50dp"
+                                    android:text="Telegram"
+                                    android:textColor="#0059ff"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/instagram"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/insta_bg"
+                                tools:ignore="UselessParent">
+
+                                <ImageView
+                                    android:id="@+id/insta"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:contentDescription="@string/spin_image"
+                                    android:src="@drawable/facebooklogo" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="50dp"
+                                    android:text="Facebook"
+                                    android:textColor="#0059ff"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:weightSum="4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:tag="New Quiz"
+                                android:id="@+id/buttonPlayOne"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/new_quiz"/>
+
+                                <TextView
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:ellipsize="end"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="New Quiz"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:tag="Top Games"
+                                android:id="@+id/buttonPlayTwo"
+                                android:gravity="center"
+
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/top_game"/>
+
+                                <TextView
+
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:ellipsize="end"
+
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="Top Games"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:tag="Fun Earn"
+                                android:id="@+id/buttonPlayThree"
+                                android:gravity="center"
+
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/fun_earn"/>
+
+                                <TextView
+
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:ellipsize="end"
+
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="Fun Earn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:tag="Prediction"
+                                android:id="@+id/buttonPlayFour"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/predition"/>
+
+                                <TextView
+
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:ellipsize="end"
+
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="Prediction"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:weightSum="4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:tag="Play Games"
+                                android:id="@+id/buttonPlayFive"
+                                android:gravity="center"
+
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/play_games"/>
+
+                                <TextView
+
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:ellipsize="end"
+
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="Play Games"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:tag="Best Games"
+                                android:id="@+id/buttonPlaySix"
+                                android:gravity="center"
+
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/best_games"/>
+
+                                <TextView
+                                    android:ellipsize="end"
+
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="Best Games"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:tag="Top Quiz"
+                                android:id="@+id/buttonPlaySeven"
+                                android:gravity="center"
+
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/top_quiz"/>
+
+                                <TextView
+                                    android:ellipsize="end"
+
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="Top Quiz"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:tag="Play Ludo"
+                                android:id="@+id/buttonPlayEight"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/play_ludo"/>
+
+                                <TextView
+                                    android:ellipsize="end"
+
+                                    android:maxLines="1"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:text="Play Ludo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="Play"
+                                    android:layout_gravity="center"
+                                    android:textSize="@dimen/_8sdp"
+                                    android:background="@drawable/play_shape"
+                                    android:layout_width="60dp"
+                                    android:layout_height="20dp"/>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:id="@+id/buttonScratch"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/scratch_btn"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:id="@+id/buttonWatch"
+                        android:scaleType="fitCenter"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/reward_ads"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:id="@+id/buttonPlaySpin"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/spin_btn"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_height="match_parent"/>
+
+
+                    <ImageView
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:id="@+id/buttonYoutube"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/video_play"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_margin="@dimen/_4sdp"
+                        android:id="@+id/promote_btn"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/quizbanner"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+
+
+                    <ImageView
+                        android:layout_margin="@dimen/_4sdp"
+                        android:id="@+id/playgames_btn"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plya"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+
+                    <ImageView
+                        android:layout_margin="@dimen/_4sdp"
+                        android:id="@+id/hotoffer_btn"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/hot_offer"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/banner_container2"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+            <LinearLayout
+                android:id="@+id/game_layout"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/_15sdp">
+
+                <ImageView
+                    android:id="@+id/game_banner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/spin_image" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/daily_check_in"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:elevation="@dimen/_8sdp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="@dimen/_4sdp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/daily_img"
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_70sdp"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:layout_marginEnd="@dimen/_4sdp"
+                                android:layout_marginBottom="@dimen/_4sdp"
+                                android:padding="@dimen/_10sdp"
+                                android:src="@drawable/daily_checkin" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/daily_img"
+                                android:layout_toRightOf="@+id/daily_img"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito_bold"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/daily_checkin"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_14ssp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/daily_checkin_desc"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_alignParentEnd="true"
+                                app:srcCompat="@drawable/home_end" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/silverCardView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:elevation="@dimen/_8sdp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="@dimen/_4sdp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item2"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/silver_img"
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_70sdp"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:padding="@dimen/_10sdp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/silver_scratch" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/silver_img"
+                                android:layout_toRightOf="@+id/silver_img"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito_bold"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/silver_scratch"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_14ssp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/silver_scratch_desc"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_alignParentEnd="true"
+                                app:srcCompat="@drawable/home_end" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/platinumCardView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:elevation="@dimen/_8sdp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="@dimen/_4sdp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item3"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/plat_img"
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_70sdp"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:padding="@dimen/_10sdp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/platinum_scratch" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/plat_img"
+                                android:layout_toRightOf="@+id/plat_img"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito_bold"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/platinum_scratch"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_14ssp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/platinum_scratch_desc"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_alignParentEnd="true"
+                                app:srcCompat="@drawable/home_end" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/goldCardView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:elevation="@dimen/_8sdp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="@dimen/_4sdp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item4"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/gold_img"
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_70sdp"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:padding="@dimen/_10sdp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/gold_scratch" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/gold_img"
+                                android:layout_toRightOf="@+id/gold_img"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito_bold"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/gold_scratch"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_14ssp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/gold_scratch_desc"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_alignParentEnd="true"
+                                app:srcCompat="@drawable/home_end" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/walletCardView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:elevation="@dimen/_8sdp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="@dimen/_4sdp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item5"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/wallet_img"
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_70sdp"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:padding="@dimen/_10sdp"
+                                android:src="@drawable/wallet" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/wallet_img"
+                                android:layout_toRightOf="@+id/wallet_img"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito_bold"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/menu_my_wallet"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_14ssp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/menu_my_wallet_desc"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_alignParentEnd="true"
+                                app:srcCompat="@drawable/home_end" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/refer_cardView"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:elevation="@dimen/_8sdp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="@dimen/_4sdp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/home_item6"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/refer_img"
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_70sdp"
+                                android:layout_margin="@dimen/_4sdp"
+                                android:padding="@dimen/_10sdp"
+                                android:src="@drawable/refer_and_earn" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toEndOf="@+id/refer_img"
+                                android:layout_toRightOf="@+id/refer_img"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito_bold"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/refer_more"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_14ssp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_6sdp"
+                                    android:layout_marginEnd="@dimen/_6sdp"
+                                    android:fontFamily="@font/nunito"
+                                    android:gravity="start"
+                                    android:maxLines="1"
+                                    android:text="@string/refer_more_desc"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_alignParentEnd="true"
+                                app:srcCompat="@drawable/home_end" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/promotion_height"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/promotion_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/spin_image" />
+
+            <ImageView
+                android:id="@+id/promotion_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/spin_image" />
+
+            <ImageView
+                android:id="@+id/promotion_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/captcha_image" />
+
+            <ImageView
+                android:id="@+id/promotion_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/captcha_image" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

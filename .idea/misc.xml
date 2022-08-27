@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/layout/activity_apps.xml" value="0.25" />
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/layout/activity_main.xml" value="0.2324074074074074" />
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/layout/activity_video.xml" value="0.25" />
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/layout/activity_visit.xml" value="0.25" />
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/layout/activity_watch_and_earn.xml" value="0.25" />
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/layout/fragment_home.xml" value="0.2324074074074074" />
+        <entry key="..\:/CodeCanyon FixesCodes/NewFixCodes/application/app/src/main/res/menu/item_menu.xml" value="0.25" />
+        <entry key="..\:/Source Code/KingRewardCode-atuf0r/AllInOneReward/application/app/src/main/res/layout/activity_apps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Source Code/KingRewardCode-atuf0r/AllInOneReward/application/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Source Code/KingRewardCode-atuf0r/AllInOneReward/application/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Source Code/KingRewardCode-atuf0r/AllInOneReward/application/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Source Code/KingRewardCode-atuf0r/AllInOneReward/application/app/src/main/res/menu/item_menu.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/drawable/ad_icon_shape.xml" value="0.136" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/drawable/complete_shape.xml" value="0.136" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/drawable/home_end.xml" value="0.136" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/drawable/home_item1.xml" value="0.136" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/drawable/ic_bg.xml" value="0.136" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/drawable/lock_shape.xml" value="0.136" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/font/nunito.xml" value="0.303125" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout-land/fragment_home_new.xml" value="0.2875" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/activity_visit.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_home_new.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_sign_up.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/drawable/ic_bg.xml" value="0.136" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/activity_game.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/activity_game_all.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/activity_scratch.xml" value="0.16" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/activity_splash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_home_new.xml" value="0.18" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_main.xml" value="0.1" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_profile_new.xml" value="0.1" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/fragment_refer.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/layout/show_points_dialog.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.187" />
+        <entry key="..\:/Users/Ahsan/Downloads/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/codecanyon_sn5tThks_all_in_one_android_earning_app_with_admin_panel/AllInOneReward_3.0/application/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.136" />
+        <entry key="app/src/main/res/drawable/arrow_right_new.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/background_card_outer.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/cardoutertwo.xml" value="0.136" />
+        <entry key="app/src/main/res/drawable/play_shape.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/activity_apps.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/layout/activity_captcha.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_game.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_game_all.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_game_loader.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_gift_card.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_install.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/layout/activity_privacy.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_redeem_history.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_scratch.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_spin.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_testact.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_visit.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_visit_links.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_watch_and_earn.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/ads_loading_dialog.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/dialog_loading.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/fragment_forgot.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home_new.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/fragment_profile_new.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_refer.xml" value="0.37962962962962965" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/game_layout.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/gift_card_dialog.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/layout_notification.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/payment_btn_layout.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/redeem_history_lyt.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/show_points_dialog.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/website_visit_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/item_menu.xml" value="0.3260416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
